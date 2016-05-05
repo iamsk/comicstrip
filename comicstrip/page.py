@@ -1,10 +1,10 @@
 import sys
 import inspect
-import Image
+from PIL import Image
+from PIL.ImageFile import Parser
+from PIL.ImageEnhance import Contrast
+from PIL.ImageOps import autocontrast
 from math import log
-from ImageFile import Parser
-from ImageEnhance import Contrast
-from ImageOps import autocontrast
 
 
 # gutter color
